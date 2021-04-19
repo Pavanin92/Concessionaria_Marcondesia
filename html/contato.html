@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Agendamento</title>
+        <link rel="stylesheet" href="../css/contato.css">
+    </head>
+    <body background="./imagens/fundo_form2.jpg">
+        <h1>Preencha o formulário de contato</h1>
+        <form>
+                <p>
+                    <label>Nome completo: </label>
+                    <input  type="text" name="nome" class="input-padrao"/>
+                </p> 
+                <p>
+                    <label>Endereço: </label>
+                    <input type="text" size="35" name="endereco" class="input-padrao" placeholder="Nome da rua, número, bairro"/>
+                </p>
+                <p>
+                    <label>Cidade: </label>
+                    <input type="text" name="cidade" class="input-padrao" placeholder="Informe sua cidade" />
+                </p>
+                <p>
+                    <label>Estado: </label>
+                    <select name="estado" class="selecao">
+                        <option selected>Escolha</option>
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>  
+                </p>
+                <p>
+                    <label>Possui Carteira Nacional de Habilitação (CNH)</label>
+                    <input type="radio" name="cnh" value="sim"/> Sim
+                    <input type="radio" name="cnh" value="nao"/> Não
+                </p>
+                <p>
+                    <label>Qual(quais) categoria(s) mais lhe chamou a atenção?</label>
+                    <input type="checkbox" class="checkbox" name="veiculos" value="esportivos"/>Esportivos 
+                    <input type="checkbox" class="checkbox" name="veiculos" value="hatches" />Hatches 
+                    <input type="checkbox" class="checkbox" name="veiculos" value="picapes"/>Picapes 
+                    <input type="checkbox" class="checkbox" name="veiculos" value="sedans"/>Sedans 
+                    <input type="checkbox" class="checkbox" name="veiculos" value="suvs"/>SUVs 
+                </p>
+                <p>
+                    <label>Gostaria de realizar um test-drive?</label> 
+                    <input type="radio" name="testdrive" value="sim"/> Sim 
+                    <input type="radio" name="testdrive" value="nao"/> Não    
+                </p> 
+                <p>
+                    <label>Deixe seu comentário: </label>
+                    <textarea name="comentario" cols="40" rows="7" class="input-padrao" placeholder="Em qual(quais) carro(s) você gostaria de realizar o test-drive?"></textarea>
+                </p>
+                <table>
+                    <thead>
+                      <tr>
+                        <th colspan="2">Horário de Funcionamento</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Segundas e Quartas</td>
+                        <td>8h ~ 17h</td>
+                      </tr>
+                      <tr>
+                        <td>Terças e Quintas</td>
+                        <td>9h ~ 18h</td>
+                      </tr>
+                      <tr>
+                        <td>Sextas</td>
+                        <td>8h ~ 14h</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                <p>
+                    <input type="reset" class="limpar"/>
+                    <input type="submit" class="enviar"/>
+                </p>
+        </form>
+        <a href="./Atividade_04.html"> <input type="button" value="Voltar" class="voltar"></a>
+    </body>
+</html>
